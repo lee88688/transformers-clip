@@ -1,0 +1,26 @@
+{
+  "name": "transformer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "index": "tsx src/index.ts",
+    "onnx": "node src/onnx-session.mjs",
+    "transformers": "node src/transformers.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node16": "^16.1.1",
+    "@types/node": "^20.10.5",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.13.0",
+    "onnxruntime-node": "^1.17.0",
+    "sharp": "^0.33.1"
+  }
+}
